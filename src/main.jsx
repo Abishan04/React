@@ -5,10 +5,11 @@ import Abishan from "./Abishan.jsx";
 import App from "./App.jsx";
 import Counter from "./components/state/Counter.jsx";
 import Colorpicker from "./components/state/Colorpicker.jsx";
+import Student from "./components/state/Student.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* <App /> */}
-<Colorpicker/>
+<Student />
   </StrictMode>
 );
