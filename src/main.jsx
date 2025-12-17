@@ -4,10 +4,11 @@ import "./index.css";
 import Abishan from "./Abishan.jsx";
 import App from "./App.jsx";
 import Counter from "./components/state/Counter.jsx";
+import Colorpicker from "./components/state/Colorpicker.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* <App /> */}
-  < Counter />
+<Colorpicker/>
   </StrictMode>
 );
